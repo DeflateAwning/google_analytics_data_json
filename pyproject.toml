@@ -18,7 +18,7 @@ classifiers = [
 ]
 dependencies = [
   'cachetools>=5.2.0,<5.4',
-  'certifi==2022.6.15',
+  'certifi',
   'charset-normalizer~=2.1.0',
   'google-analytics-data==0.12.1',
   'google-api-core==2.8.2',
