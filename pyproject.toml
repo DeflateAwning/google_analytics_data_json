@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "google_analytics_data_json"
-version = "0.0.2.3"
+version = "0.0.2.4"
 authors = [
   { name="Daniel Jerrehian", email="danieljerrehian@gmail.com" },
 ]
@@ -19,7 +19,7 @@ classifiers = [
 dependencies = [
   'cachetools>=5.2.0,<5.4',
   'certifi',
-  'charset-normalizer~=2.1.0',
+  'charset-normalizer>=2.1.0',
   'google-analytics-data==0.12.1',
   'google-api-core==2.8.2',
   'google-auth==2.9.0',
